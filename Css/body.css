@@ -1,0 +1,983 @@
+    .body_of_page {
+        width: 100%;
+        padding-top: 2%;
+    }
+    /* .Select_Model */
+    
+    .Select_Model {
+        padding: 30px 20px 30px;
+        background: #f2f2f2;
+        border: 1px solid #e3e3e3;
+        position: relative;
+        margin-bottom: 1%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 0px rgba(128, 128, 128, 0.466);
+    }
+    
+    .SelectDivStyle label {
+        color: #c4c3c3;
+        font-size: 14px;
+    }
+    
+    .SelectDivStyle select {
+        font-size: 14px;
+        box-shadow: none !important;
+    }
+    
+    .SelectDivStyle select option {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .SelectDivStyle {
+        border-bottom: 1px solid #db2d2e;
+        /* border-top: .5px solid #db2d2e; */
+        border-left: 1px solid #db2d2e;
+        padding: 5px 15px;
+        background-color: rgb(255, 255, 255);
+        margin: 5px 0px;
+    }
+    
+    .SelectDivStyle button {
+        float: right;
+        background-color: #db2d2e;
+        border: none;
+        height: 100%;
+        width: 55%;
+        margin: 0 !important;
+        color: white;
+        border-radius: 0;
+    }
+    
+    .Make {
+        border-bottom: 5px solid #db2d2e;
+        cursor: pointer;
+        color: #db2d2e;
+    }
+    
+    .Body_style {
+        cursor: pointer;
+    }
+    
+    .MakeCont {
+        width: 100%;
+        display: block;
+    }
+    
+    .Body_styleCont {
+        width: 100%;
+        display: none;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    .tabs__list a {
+        float: right;
+        padding: 5px 20px;
+        text-decoration: none;
+        color: #db2d2e;
+    }
+    
+    .tabs__list {
+        border-bottom: 2px solid #db2d2e;
+        justify-content: flex-start;
+        margin: 0 0 16px;
+        padding: 0;
+    }
+    
+    .tabs__list li {
+        display: inline-block;
+        list-style: none;
+        margin-right: 20px;
+        padding: 5px 10px;
+    }
+    
+    .SelectDivStyle h6 {
+        line-height: 2;
+    }
+    
+    .Select_Model button:hover {
+        color: white;
+        background: #db2d2db6;
+    }
+    
+    .Select_Model p {
+        word-break: break-word;
+    }
+    
+    @media only screen and (max-width: 575px) {
+        .tabs__list {
+            font-size: 10px !important
+        }
+        .tabs__list li {
+            margin-right: 0px;
+        }
+        .SelectDivStyle button {
+            padding: 15px 0px;
+        }
+    }
+    /* .Select_Model */
+    
+    .welcomePrag {
+        text-align: center;
+        background: #ffffff;
+        padding: 2% 10%;
+    }
+    
+    span.sub-title,
+    p {
+        color: #999999;
+        font-size: 14px;
+        word-break: break-all;
+    }
+    
+    h2.main-title {
+        color: #363636;
+        margin-top: 10px;
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+    
+    .separator:before {
+        content: '';
+        display: block;
+        margin: auto;
+        left: 50%;
+        height: 1px;
+        width: 0px;
+        bottom: -15px;
+        background: #db2d2e;
+        margin-bottom: 6px;
+        animation: 2s ease-out 1s infinite separator2;
+        transform: translateX(0px);
+        animation-fill-mode: forwards
+    }
+    
+    .separator:after {
+        width: 0px;
+        display: block;
+        margin: auto;
+        content: "";
+        height: 1px;
+        background: #db2d2e;
+        bottom: 0px;
+        left: 50%;
+        animation: 1.5s ease-out 1s infinite separator;
+        transform: translateX(0px);
+        animation-fill-mode: forwards
+    }
+    
+    .types {
+        text-align: center;
+        word-break: break-all;
+    }
+    
+    .types h6 {
+        color: #363636;
+        margin-bottom: 25px;
+        font-size: 16px;
+        font-weight: 600
+    }
+    
+    .types p {
+        font-weight: 400;
+    }
+    
+    .types h6::before {
+        position: absolute;
+        content: "";
+        width: 25px;
+        height: 3px;
+        background: #db2d2e;
+        margin-top: 35px;
+        margin-left: 35px;
+    }
+    
+    .typesIcon {
+        background-color: #f6f6f6;
+        padding: 10px;
+        border-radius: 100%;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .typesIcon svg {
+        font-size: 40px !important;
+        color: #b4b4b4 !important;
+        font-weight: 400 !important;
+    }
+    
+    @keyframes separator {
+        0% {
+            width: 100px;
+        }
+        5% {
+            width: 0px;
+        }
+        10% {
+            width: 15px;
+        }
+        30% {
+            width: 5px;
+        }
+        50% {
+            width: 50px;
+        }
+        70% {
+            width: 40px;
+        }
+        80% {
+            width: 70px;
+        }
+        90% {
+            width: 55px;
+        }
+        100% {
+            width: 100px;
+        }
+    }
+    
+    @keyframes separator2 {
+        0% {
+            width: 50px;
+        }
+        5% {
+            width: 0px;
+        }
+        10% {
+            width: 15px;
+        }
+        30% {
+            width: 5px;
+        }
+        50% {
+            width: 50px;
+        }
+        70% {
+            width: 40px;
+        }
+        80% {
+            width: 45px;
+        }
+        90% {
+            width: 30px;
+        }
+        100% {
+            width: 50px;
+        }
+    }
+    
+    @media only screen and (min-width: 991px) {
+        .Select_Model {
+            margin-top: -70px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 650px) {
+        h2.main-title {
+            font-size: 35px;
+        }
+        span.sub-title,
+        p {
+            font-size: 13px;
+        }
+        span.sub-title {
+            margin-top: 200px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 991px) {
+        .question div.imgDiv {
+            padding: 0 !important;
+        }
+        .question div.imgDiv img {
+            height: 50px !important;
+            width: 50px !important;
+        }
+        .question h2 {
+            font-size: .8pc !important;
+            margin: 0 !important;
+        }
+        .question span {
+            font-size: 9px !important;
+            margin: 0 !important;
+        }
+        .typesIcon {
+            width: 50px;
+            height: 50px;
+        }
+        .typesIcon svg {
+            font-size: 25px !important;
+        }
+    }
+    /* question */
+    /* question */
+    
+    .QuastionsImgOne {
+        text-align: start;
+    }
+    
+    .QuastionsImgOne img {
+        background-color: yellow;
+        text-align: end;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 85%;
+        max-height: 85%;
+        margin-left: -1pc !important;
+        position: relative;
+        margin-left: -1.5pc !important;
+    }
+    
+    .QuastionsImgTow {
+        text-align: end;
+        overflow: hidden;
+    }
+    
+    .QuastionsImgTow img {
+        background-color: yellow;
+        text-align: end;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 85%;
+        max-height: 85%;
+        margin-right: -30px;
+    }
+    
+    .question {
+        text-align: center;
+    }
+    
+    .question img {
+        border-radius: 100%;
+    }
+    
+    .question h2 {
+        color: #db2d2e;
+    }
+    
+    .QuastionsImgTow img {
+        transition: all 1.5s ease;
+    }
+    
+    .QuastionsImgOne img {
+        transition: all 1.5s ease;
+    }
+    /* question  */
+    /* question  */
+    /* owl-carousel */
+    /* owl-carousel */
+    
+    .Bigslider {
+        text-align: center;
+        background-image: url(https://cardealer.potenzaglobalsolutions.com/elementor/wp-content/uploads/sites/3/2021/06/feature-car-bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .Bigslider div.blackOpecity {
+        background-color: rgba(0, 0, 0, 0.692);
+        padding: 30px;
+    }
+    
+    .Bigslider div.blackOpecity span.sub-title {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .Bigslider div.blackOpecity h2.main-title {
+        color: white;
+    }
+    
+    .owl-carousel {
+        padding: 5%;
+    }
+    
+    .owl-carousel div.card-body {
+        min-height: 130px !important;
+    }
+    
+    .owl-carousel div.card-body a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #db2d2e;
+        margin-bottom: 10px;
+        padding: 5px;
+        display: block;
+    }
+    
+    .owl-carousel div.card-body div.car-price {
+        position: absolute;
+        bottom: 1pc;
+        margin: 0;
+        width: 100%;
+        right: 0;
+    }
+    
+    .owl-carousel div.card-body div.car-price span.old-price {
+        text-decoration: line-through;
+        padding-right: 5px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    
+    .owl-carousel div.card-body div.car-price span.new-price {
+        color: #363636;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    .owl-carousel div.card-body div.separator {
+        margin-bottom: 10px;
+    }
+    
+    .owl-prev {
+        width: 44px;
+        height: 44px;
+        font-size: 35px !important;
+        font-weight: bolder;
+        background-color: rgb(255, 255, 255) !important;
+        float: left;
+        margin-top: -180px !important;
+        z-index: 5555 !important;
+        position: relative;
+        margin-left: 23px;
+        color: #db2d2e !important;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        opacity: 0;
+        border: .5px solid #db2d2e;
+    }
+    
+    .owl-prev span {
+        margin-top: -7px;
+    }
+    
+    .owl-next span {
+        margin-top: -7px;
+    }
+    
+    .owl-next {
+        width: 44px;
+        height: 44px;
+        font-size: 35px !important;
+        font-weight: bolder;
+        background-color: rgb(255, 255, 255) !important;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        float: right;
+        margin-top: -180px !important;
+        z-index: 5555 !important;
+        position: relative;
+        margin-right: 10px;
+        color: #db2d2e;
+        color: #db2d2e !important;
+        border-radius: 5px;
+        justify-content: center;
+        line-height: 2;
+        opacity: 1;
+    }
+    
+    .owl-next {
+        opacity: 0;
+        transition: all .5s ease;
+        animation: 1.5s ease-in-out 1s bigSlider;
+        animation-fill-mode: forwards
+    }
+    
+    .owl-prev {
+        opacity: 0;
+        transition: all .5s ease;
+        animation: 1.5s ease-in-out 1s bigSlider;
+        animation-fill-mode: forwards
+    }
+    
+    @keyframes bigSlider {
+        0% {
+            opacity: 0;
+        }
+        20% {
+            opacity: .21;
+        }
+        50% {
+            opacity: .51;
+        }
+        70% {
+            opacity: .71;
+        }
+        100% {
+            opacity: 1;
+        }
+        0% {
+            opacity: 0;
+        }
+    }
+    
+    @keyframes bigSliderLeave {
+        0% {
+            opacity: 1;
+        }
+        20% {
+            opacity: .9;
+        }
+        50% {
+            opacity: .5;
+        }
+        70% {
+            opacity: .3;
+        }
+        100% {
+            opacity: .2;
+        }
+        0% {
+            opacity: 0;
+        }
+    }
+    /* owl-carousel */
+    /* owl-carousel */
+    
+    .card:hover .cardHoverOne {
+        transition: all .5s ease-in-out;
+        top: 0 !important;
+        opacity: 1;
+    }
+    
+    .card:hover .cardHoverTow {
+        bottom: 145px !important;
+        transition: all .5s ease-in-out;
+        animation: 0.5s ease-in-out 0s bigSlider forwards;
+    }
+    
+    .cardHoverTow {
+        transition: all .5s ease-in-out;
+        background-color: rgb(255, 255, 255);
+        height: 15%;
+        width: 100%;
+        position: absolute;
+        bottom: 85px;
+        z-index: 0;
+    }
+    
+    .cardHoverOne {
+        opacity: 0;
+        transition: all .5s ease-in-out;
+        background-color: rgba(219, 45, 46, .8) !important;
+        height: 57.5%;
+        width: 100%;
+        position: absolute;
+        top: -210px;
+    }
+    
+    .cardImgHOver {
+        height: 100%;
+        width: 100%;
+        z-index: 55 !important;
+    }
+    
+    ul.hoverList {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 40%;
+        z-index: 99;
+        padding: 0;
+        margin: 0;
+        transform: translateY(-50%);
+    }
+    
+    ul.hoverList2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 40%;
+        z-index: 99;
+        padding: 0;
+        margin: 0;
+        transform: translateY(-50%);
+        font-size: 15px !important;
+        color: rgb(128, 128, 128);
+        line-height: 3;
+    }
+    
+    ul.hoverList2 li {
+        padding: 0px 3px;
+    }
+    
+    ul.hoverList li {
+        display: inline-block;
+        margin: 0 3px;
+    }
+    
+    ul.hoverList li a {
+        display: inline-block;
+        background: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        width: 36px;
+        height: 36px;
+        line-height: 32px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    
+    ul.hoverList li a:hover {
+        background: #ffffff;
+        color: rgb(219, 45, 45) !important;
+    }
+    
+    .card-body {
+        height: 40%;
+        z-index: 60 !important;
+        background-color: white;
+        border-top: 1px solid rgba(211, 211, 211, 0.733);
+    }
+    /* User Card */
+    
+    .userCard {
+        text-align: center;
+    }
+    
+    .userCard .owl-carousel {
+        padding: 0px 10% !important;
+    }
+    
+    .userCard .owl-carousel .card2 {
+        overflow: hidden;
+    }
+    
+    .userCard .owl-carousel .card2 .card-body {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+    
+    .userCard .owl-carousel .card2 .card-body img {
+        margin-top: -20%;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+    
+    .userCard .owl-carousel .card2 .card-body p {
+        padding: 15px;
+        color: #999999;
+    }
+    
+    .userCard .owl-carousel .card2 .card-body span {
+        color: #999999;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .userCard .owl-carousel .card2 .card-body h6 {
+        color: #db2d2e;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .card2:hover .card2Img {
+        transform: scale(1.05);
+    }
+    
+    .card2Img {
+        transition: all .7s ease-in-out;
+    }
+    
+    .card2:hover .fa-quote-left {
+        color: #db2d2e !important;
+    }
+    
+    .fa-quote-left {
+        transition: all .5s ease-in-out;
+        font-size: 35px !important;
+        color: #999999;
+    }
+    
+    @media only screen and (min-width: 1100px) {
+        .card2Img {
+            height: 140px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .main-title {
+            font-size: 25px !important;
+        }
+        .userCardHead {
+            margin-top: 0 !important;
+        }
+    }
+    /* User Card */
+    /* <!-- icons list --> */
+    
+    .iconslist {
+        text-align: center;
+    }
+    
+    .iconslist .iconslistText span div {
+        margin-top: 30px !important;
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background-color: #DB2D2E;
+    }
+    /* <!-- icons  list --> */
+    /* modal-content-vedio */
+    
+    .modal-content-vedi {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    .vedioModalBTN .bgImg button {
+        border: none;
+        background: rgba(255, 0, 0, 0.603);
+    }
+    
+    .vedioModalBTN .bgImg {
+        background-color: red !important;
+        background-image: url(https://cardealer.potenzaglobalsolutions.com/elementor/wp-content/uploads/sites/3/2021/06/video-bg.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100% !important;
+        border: none;
+        background-color: white;
+        height: 400px;
+    }
+    
+    .fa-play {
+        color: #db2626;
+        margin-left: 5px;
+    }
+    
+    .iconss {
+        background-color: white;
+        border-radius: 50%;
+        border: 7px solid #db2626;
+        outline: 5px solid rgb(255, 255, 255);
+        height: 80px;
+        width: 80px;
+        font-size: 25px;
+        transition: all .5s ease-in-out;
+    }
+    
+    .iconss:hover .fa-play {
+        color: #ffffff;
+    }
+    
+    .iconss:hover {
+        background-color: #14181ffa;
+    }
+    
+    iframe.PageOneVid {
+        height: 450px;
+        border-radius: 5px;
+    }
+    
+    @media only screen and (min-width: 991px) {
+        .vedioModalBTN {
+            margin-top: -270px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 766px) {
+        .vedioModalBTN .bgImg {
+            height: 200px;
+            margin-bottom: 0 !important;
+        }
+        .ABOUT_US h4 {
+            font-size: 14px;
+        }
+        iframe.PageOneVid {
+            height: 260px;
+            border-radius: 5px;
+        }
+    }
+    /* modal-content-vedio */
+    /* <!-- WANT TO KNOW MORE ABOUT US --> */
+    
+    .ABOUT_US h4 {
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 1.5em;
+    }
+    
+    .ABOUT_US div {
+        background-color: rgba(0, 0, 0, 0.788);
+        width: 100% !important;
+        height: 400px !important;
+        text-align: center;
+    }
+    
+    .ABOUT_US {
+        background-image: url(https://cardealer.potenzaglobalsolutions.com/elementor/wp-content/uploads/sites/3/2021/06/why-choose-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100% !important;
+        height: 400px !important;
+    }
+    /* <!-- WANT TO KNOW MORE ABOUT US --> */
+    /* LATEST_NEWS */
+    
+    .LATEST_NEWS {
+        background-color: white !important;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_TEXT {
+        text-align: center;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_LEFT {
+        background-image: url(https://cardealer.potenzaglobalsolutions.com/elementor/wp-content/uploads/sites/3/2021/06/new-bg-back.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 350px;
+        background-position: left;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_LEFT img {
+        float: right;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_Right {
+        background-image: url(https://cardealer.potenzaglobalsolutions.com/elementor/wp-content/uploads/sites/3/2021/06/new-bg-front.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 350px;
+        background-position: right;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_Right div.NewsList {
+        float: left;
+        min-width: 300px;
+        max-width: 500px;
+        height: auto;
+        padding-left: 30px;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_Right a {
+        font-size: 18px;
+        color: #363636;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_Right .line {
+        width: 20px;
+        height: 2px;
+        background-color: #DB2D2E;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_Right span {
+        color: #9fa1b0;
+        font-size: 14px;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_Right span strong {
+        color: #DB2D2E;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_Right p {
+        color: #9fa1b0;
+        font-size: 14px;
+        margin: 25px 0px 10px;
+        word-break: break-word;
+    }
+    
+    .LATEST_NEWS .LATEST_NEWS_IMG_Right .main-btn span {
+        color: #ffffff !important;
+    }
+    /* LATEST_NEWS */
+    /* Slider BOXSTER */
+    
+    .Slider_BOXSTER_ONE {
+        background-image: url(https://cardealer.potenzaglobalsolutions.com/elementor/wp-content/uploads/sites/3/2021/06/boxster-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 180px;
+        background-position: center;
+    }
+    
+    .Slider_BOXSTER_TOW {
+        padding: 3% 4%;
+        background-color: #f6f6f6;
+        text-align: center;
+    }
+    
+    .Slider_BOXSTER_TOW h2 {
+        font-family: sans-serif;
+        font-size: 50px;
+        color: #363636;
+        font-weight: 600;
+    }
+    
+    .Slider_BOXSTER_TOW span.spanOne {
+        font-size: 20px;
+        color: #999999;
+        font-weight: 500;
+        font-style: italic;
+        margin: 5px 0px 0px;
+    }
+    
+    .Slider_BOXSTER_TOW span.spanTow {
+        font-size: 40px;
+        color: #DB2D2E;
+        font-weight: 700;
+        margin: 10px 0px 0px;
+    }
+    
+    .Slider_BOXSTER_TOW span.spanThree {
+        font-size: 20px;
+        color: #999999;
+        font-weight: 500;
+        font-style: italic;
+        margin: 5px 0px;
+    }
+    
+    .Slider_BOXSTER_TOW span.spanFour {
+        font-size: 20px;
+        color: #999999;
+        font-weight: 500;
+        margin: 0px 0px 10px;
+    }
+    
+    .Slider_BOXSTER_TOW span a {
+        color: #DB2D2E;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    @media only screen and (max-width: 991px) {
+        .Slider_BOXSTER_TOW h2 {
+            font-size: 25px;
+            margin-top: 15%;
+        }
+        .Slider_BOXSTER_TOW span.spanOne {
+            font-size: 15px;
+        }
+        .Slider_BOXSTER_TOW span.spanTow {
+            font-size: 25px;
+        }
+        .Slider_BOXSTER_TOW span.spanThree {
+            font-size: 15px;
+        }
+        .Slider_BOXSTER_TOW span.spanFour {
+            font-size: 15px;
+        }
+        .Slider_BOXSTER_TOW span a {
+            font-size: 10px;
+        }
+    }
+    /* Slider BOXSTER */

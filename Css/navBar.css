@@ -1,0 +1,351 @@
+div.navBar {
+    z-index: 99;
+}
+
+nav {
+    height: 68px;
+}
+
+
+/* div.navBar nav {} */
+
+div.navBar nav ul li {
+    font-size: 12px;
+    font-family: OpenSans;
+}
+
+div.navBar nav ul li a.nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 7px !important;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+div.navBar nav ul li a:hover {
+    text-decoration: none;
+    color: #db2d2e;
+}
+
+div.navBar nav ul li a.active {
+    color: #db2d2e;
+    font-weight: 600 !important;
+}
+
+div.navBar nav ul li a span.badge {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    height: 19px;
+    line-height: .6;
+}
+
+div.navBar nav ul li button.AddCar {
+    background-color: #db2d2d00;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 11px;
+    font-family: OpenSans;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+div.navBar nav ul li button.AddCar span {
+    background: #db2d2e;
+    padding: 10px;
+    line-height: 5;
+    border-radius: 5px;
+}
+
+.navbar-toggler:focus {
+    background-color: rgba(204, 203, 243, 0.164);
+    box-shadow: 0 0 0 0rem;
+}
+
+ul.navbar-nav li div.dropdown-menu {
+    text-align: end;
+    border-top: 5px solid #db2d2e;
+    border-radius: 2px !important;
+    font-size: 12px;
+    font-family: OpenSans;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    margin-top: 2px;
+}
+
+.dropdown-item {
+    border-bottom: 1px solid #db2d2d3a;
+    font-weight: 600;
+    font-family: OpenSans;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 1;
+}
+
+.dropdown-menu {
+    padding-bottom: 20px;
+}
+
+ul.mainUl {
+    height: 100%;
+    line-height: 4;
+}
+
+ul.navbar-nav li.nav-item div.dropdown-menu {
+    border-radius: 3px 3px 7px 7px !important;
+    margin-bottom: 15px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #0d6dfd00;
+}
+
+div.carAnimate img {
+    height: 70px;
+    width: auto;
+}
+
+@media only screen and (max-width: 991px) {
+    ul.navbar-nav {
+        border: none;
+        background-color: rgba(2, 31, 46, 0.301) !important;
+        direction: ltr;
+        padding: 10px 30px;
+        border-radius: 5px;
+        text-align: end;
+    }
+    ul.navbar-nav li.nav-item {
+        margin-bottom: 10px;
+        padding: 0px 10px;
+        border-bottom: 1px solid rgba(245, 222, 179, 0.192);
+    }
+    .dropdown-toggle::after {
+        float: left;
+        margin-top: 10px;
+    }
+    ul.navbar-nav li a.nav-link:hover {
+        background-color: rgba(40, 39, 73, 0.308);
+    }
+    div.DivSearch {
+        height: 70px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    div.DivSearch input {
+        float: right;
+        text-align: start;
+        padding-left: 30px;
+        height: 30px;
+        font-size: 12px;
+        font-family: OpenSans;
+        margin-bottom: 5px;
+    }
+    div.DivSearch button.btnSearch {
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+        margin-top: -8px;
+        margin-left: 10px;
+    }
+    div.navBar nav ul li a.nav-link {
+        font-size: 10px;
+        padding: 0;
+        height: 30px;
+        line-height: 2;
+    }
+    ul.navbar-nav li.nav-item {
+        padding: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    div.navBar nav ul li a span.badge {
+        top: -8px;
+        right: -12px;
+    }
+    div.collapse {
+        z-index: 10;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .navbar {
+        padding: 0px 25px;
+    }
+    .navbar-brand img {
+        width: 120px;
+        margin-top: 2px;
+    }
+    .navbar-toggler {
+        width: 40px;
+    }
+    .navbar-light .navbar-toggler-icon {
+        width: 25px;
+        margin: -5px;
+    }
+    div.navBar nav ul li a.nav-link {
+        font-size: 10px;
+        padding: 0;
+        height: 30px;
+    }
+    div.navBar nav ul li a.active {
+        font-weight: 600;
+    }
+    ul.navbar-nav li.nav-item {
+        padding: 0px !important;
+        padding-bottom: 2px !important;
+    }
+    ul.navbar-nav {
+        margin-top: 30px !important;
+    }
+    div.navBar nav ul li a span.badge {
+        top: -8px;
+        right: -12px;
+    }
+    div.carAnimate img {
+        height: 50px;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    div.DivSearch {
+        width: 225px;
+        position: absolute;
+        margin-left: -130px;
+        padding: 5px;
+        padding-top: 20px;
+    }
+    div.DivSearch input {
+        float: right;
+        text-align: start;
+        padding-left: 30px;
+        height: 30px;
+        font-size: 12px;
+        font-family: OpenSans;
+        margin-bottom: 5px;
+    }
+    div.DivSearch button.btnSearch {
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+        margin-top: -8px;
+        margin-left: 10px;
+    }
+    /* .dropdown-menu {
+        padding-bottom: 20px;
+        margin-top: 24px;
+    } */
+}
+
+
+/* Buton Animations  */
+
+.main-btn {
+    padding: 0px !important;
+    border: none;
+    height: 0px;
+}
+
+.main-btn span {
+    display: inline-block;
+    background: 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    color: #363636;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 14px !important;
+    font-weight: 100;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    vertical-align: middle;
+    overflow: hidden;
+    -ms-transform: perspective(1px) translateZ(0);
+    -o-transform: perspective(1px) translateZ(0);
+    -moz-transform: perspective(1px) translateZ(0);
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    transition: all 0.5s ease;
+    padding: 5px;
+    background: #db2d2e;
+    color: #fff;
+    line-height: 1.4 !important;
+    border-radius: 2px;
+    height: 32px;
+}
+
+.main-btn span::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #021927;
+    color: #fff;
+    border-radius: 2px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all .5s ease-out 0s;
+    -moz-transition: all .5s ease-out 0s;
+    transition: all .5s ease-out 0s;
+}
+
+.main-btn span:active:before,
+.main-btn span:focus:before,
+.main-btn span:hover:before {
+    transform: scaleY(1);
+    transition-timing-function: cubic-bezier(.52, 1.64, .37, .5);
+}
+
+.main-btn span:active,
+.main-btn span:focus,
+.main-btn span:hover {
+    border-color: #ffffff;
+    color: #fff;
+}
+
+
+/* Buton Animations  */
+
+
+/* Auto Scroll Car  */
+
+.carAnimate {
+    position: fixed;
+    right: 0;
+    bottom: 2%;
+    padding: 20px;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.carAnimate:hover .carAnimate2 {
+    opacity: 1;
+}
+
+.carAnimate2 {
+    position: fixed;
+    right: 0;
+    bottom: 2%;
+    padding: 20px;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+}
+
+
+/* Auto Scroll Car  */

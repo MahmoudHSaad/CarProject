@@ -1,0 +1,77 @@
+ .top_of_page {
+     background-image: url(../Image/header.jpg);
+     /* background-size: contain; */
+     z-index: -50;
+     top: 100%;
+     height: auto;
+     /* Full height */
+     padding-bottom: 40px;
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ .topSide {
+     min-height: 43px;
+     width: 100%;
+     z-index: 5;
+     position: relative;
+     border-bottom: 1px solid #344651;
+     font-family: OpenSans;
+ }
+ 
+ .topSide .container {
+     padding: 0px 7px;
+ }
+ 
+ .topSide ul.list-inline {
+     padding: 0;
+     margin: 0 !important;
+     line-height: 2.5;
+ }
+ 
+ .topSide ul.list-inline li {
+     display: inline;
+     color: white;
+     padding-left: 5px;
+     padding-right: 5px;
+     font-family: OpenSans;
+     font-weight: 500;
+     font-size: 14px;
+ }
+ 
+ .topSide ul.list-inline li a {
+     display: inline;
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .topSide ul.list-inline li a:hover {
+     color: #db2d2e;
+     transition: 0.5s;
+ }
+ 
+ @media only screen and (max-width: 992px) {
+     .topSide ul.list-inline li {
+         font-size: 12px;
+         margin-right: 10px;
+         padding: 0;
+         text-align: center;
+     }
+     .topSide ul.list-inline {
+         padding: 0px 7px;
+         line-height: 2;
+         display: flex;
+         justify-content: center;
+     }
+ }
+ 
+ @media only screen and (max-width: 500px) {
+     .topSide ul.list-inline li {
+         font-size: 10px;
+         margin-right: 5px;
+         padding: 0;
+         text-align: center;
+     }
+ }

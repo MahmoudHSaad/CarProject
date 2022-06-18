@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    direction: ltr;
+}
+
+.PageContainer {
+    max-width: 1920px;
+    height: 100%;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
